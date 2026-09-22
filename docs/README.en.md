@@ -71,8 +71,9 @@ team by itself.
 ## Ownership and review
 
 Each document names its status, maintainer, last substantive review, next review
-trigger, and evidence of practical use. Unassigned ownership is written as
-`UNKNOWN: maintainer`; never invent a person. Maintainers review a document when
+trigger, and evidence of practical use. Unless specified otherwise, the
+maintainer team maintains the document; enter different ownership only on
+request and never invent a person. Maintainers review a document when
 sources change, practical feedback arrives, or a team prepares to adopt it. The
 adopting team names responsible people and an appropriate next review date. An
 agent may support the review but cannot replace a human decision.

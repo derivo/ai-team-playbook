@@ -22,8 +22,8 @@ Erstelle genau den angefragten Inhalt als deutsches und englisches Sprachpaar.
 Die deutsche Standardfassung behält den Dateinamen ohne Sprachsuffix; die
 englische Fassung erhält `.en.md`. Beide verlinken einander, haben denselben
 fachlichen Stand und beginnen als Entwurf. Trenne vorgeschlagene Regeln von
-belegten Erfahrungen. Unbekannte Pflegeverantwortung offen kennzeichnen; kein
-Team und keine Person ohne Auftrag verpflichten. Anpassungspunkte konkret
+belegten Erfahrungen. Pflegeverantwortung ist standardmäßig das Maintainer-Team;
+kein anderes Team und keine Person ohne Auftrag verpflichten. Anpassungspunkte konkret
 benennen, ohne vorsorglich neue Varianten zu erzeugen.
 
 Verlinke beide Fassungen im passenden Sprachkatalog. Prüfe Metadaten, interne

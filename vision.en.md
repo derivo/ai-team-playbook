@@ -106,8 +106,8 @@ Until the start version, changes are made directly in the repository; afterwards
 they are recorded as GitHub issues. Open:
 
 - UNKNOWN: criterion for when the start version counts as finished.
-- UNKNOWN: whether new content is maintained by the maintainer team by default
-  and who takes the content owner role.
+- UNKNOWN: who takes the content owner role. Decided: new content is maintained
+  by the maintainer team by default.
 
 ### 2. Decide maintenance and license
 
@@ -205,3 +205,5 @@ advance.
 - 2026-09-22: Completed step 1: created general processes under
   `docs/prozesse/`, moved the initial drafts to `docs/anwendungsfaelle/` as use
   cases, and aligned the process with the start version.
+- 2026-09-22: Set the maintainer team as default maintainer for new content in
+  the template, documentation structure, and skill.

@@ -74,8 +74,9 @@ es verpflichtet durch die Aufnahme in diese Bibliothek noch kein Team.
 ## Zuständigkeit und Aktualisierungsprüfung
 
 Jeder Inhalt nennt Status, Pflegeverantwortung, letzten inhaltlichen Prüfstand,
-nächsten Prüfanlass und Erprobungsnachweis. Nicht zugewiesene Verantwortung heißt
-`UNBEKANNT: Pflegeverantwortung`; keine Person eigenmächtig eintragen.
+nächsten Prüfanlass und Erprobungsnachweis. Ohne abweichende Festlegung liegt die
+Pflegeverantwortung beim Maintainer-Team; eine andere Zuständigkeit nur auf
+Auftrag eintragen, keine Person eigenmächtig.
 Die Pflegeverantwortlichen prüfen bei Quellenänderungen, praktischen Rückmeldungen
 und vor einer Übernahme ins Team, ob Aussagen und Nachweise weiter gelten. Das
 übernehmende Team benennt Zuständige und einen passenden nächsten Prüftermin.

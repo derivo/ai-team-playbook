@@ -3,7 +3,7 @@
 [Deutsch (Standard)](inhalt.md) | English
 
 - Status: Draft
-- Maintainer: UNKNOWN: responsible person or role
+- Maintainer: maintainer team (reviews changes)
 - Content checked: UNKNOWN: date, scope, and evidence
 - Next review trigger: [source change, feedback, or agreed date]
 - Evidence of practical use: None; not marked as proven.

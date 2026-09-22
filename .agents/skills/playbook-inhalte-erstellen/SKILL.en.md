@@ -18,8 +18,8 @@ tools and organizations; content for a named context is a use case in
 Create exactly the requested content as a German and English language pair. The
 German default keeps the file name without a suffix; English uses `.en.md`. Both
 link to one another, carry the same substantive state, and begin as drafts.
-Separate proposed rules from proven experience. Mark unknown ownership openly;
-do not bind a team or person without a request. Name adaptation points without
+Separate proposed rules from proven experience. The maintainer team is the
+default maintainer; do not bind another team or person without a request. Name adaptation points without
 creating speculative variants.
 
 Link both versions from the appropriate language catalog. Check metadata,

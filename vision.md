@@ -110,8 +110,8 @@ Entwürfe als Anwendungsfälle zu führen. Bis zur Startversion werden Änderung
 direkt im Repository vorgenommen, danach als GitHub-Issues erfasst. Offen:
 
 - UNBEKANNT: Kriterium, ab dem die Startversion als fertig gilt.
-- UNBEKANNT: ob neue Inhalte standardmäßig vom Maintainer-Team gepflegt werden
-  und wer die Rolle der Inhaltsverantwortlichen übernimmt.
+- UNBEKANNT: wer die Rolle der Inhaltsverantwortlichen übernimmt. Entschieden
+  ist: Neue Inhalte pflegt standardmäßig das Maintainer-Team.
 
 ### 2. Pflege und Lizenz entscheiden
 
@@ -213,3 +213,5 @@ nicht vorsorglich angelegt.
 - 2026-09-22: Schritt 1 umgesetzt: allgemeine Prozesse unter `docs/prozesse/`
   angelegt, Erstentwürfe als Anwendungsfälle nach `docs/anwendungsfaelle/`
   verschoben, Ablauf auf die Startversion ausgerichtet.
+- 2026-09-22: Maintainer-Team als Standard-Pflegeverantwortung für neue Inhalte
+  in Vorlage, Dokumentstruktur und Skill festgelegt.

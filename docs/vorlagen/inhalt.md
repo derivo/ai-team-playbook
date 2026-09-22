@@ -3,7 +3,7 @@
 Deutsch (Standard) | [English](inhalt.en.md)
 
 - Status: Entwurf
-- Pflegeverantwortung: UNBEKANNT: zuständige Person oder Rolle
+- Pflegeverantwortung: Maintainer-Team (prüft Änderungen im Review)
 - Inhaltlich geprüft: UNBEKANNT: Datum, Umfang und Nachweis
 - Nächster Prüfanlass: [Quellenänderung, Rückmeldung oder vereinbarter Termin]
 - Erprobungsnachweis: Keiner; nicht als erprobt ausgewiesen.
