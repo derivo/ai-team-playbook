@@ -15,11 +15,12 @@ same scope as the existing content.
 
 Distinguish an update to the shared proposal from an explicitly requested team
 variant. Create a variant only on request; link it to its source and document the
-differences. New variants follow the [content template](../../../docs/vorlagen/inhalt.en.md).
+differences; a variant for a named context is a use case under
+`docs/anwendungsfaelle/`. New variants follow the [content template](../../../docs/vorlagen/inhalt.en.md).
 
 Check changed sources and claims that remain in the affected document. Change
-only the requested parts. Keep the two initial drafts independent; do not merge
-them during an update.
+only the requested parts. Keep general processes and use cases separate:
+context-specific content belongs in the use case.
 
 Evaluate status from evidence: editing does not make a draft proven. When
 superseding content, name the reason and successor or state that none exists.

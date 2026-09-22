@@ -32,8 +32,10 @@ remain unchanged in English and are exempt from the language-pair rule.
 - Change request or PR: [playbook-anfragen-und-prs](.agents/skills/playbook-anfragen-und-prs/SKILL.en.md).
 
 Load only the skill needed. Before creating a document, check whether content for
-the same purpose already exists. Keep the two initial drafts separate and change
-their content only within a specific request.
+the same purpose already exists. Keep general processes and standards independent
+of specific tools and organizations; store specific implementations as use cases
+next to them that link to their process. Change content only within a specific
+request.
 
 ## Change boundaries
 

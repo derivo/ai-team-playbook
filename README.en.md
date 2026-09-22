@@ -11,13 +11,15 @@ adapt, and make binding.
 
 ## Process overview
 
-| Process | What does it govern? | When is it useful? | Document |
+| Process | What does it govern? | When is it useful? | Use case |
 | --- | --- | --- | --- |
-| Collaboration through issues and pull requests | Task ownership, status updates, handoffs, AI reviews, and follow-up work | When several people and local AI agents work on shared changes | [Team process](docs/entwuerfe/teamprozess-mensch-ki-github.en.md) |
-| Lifecycle of shared apps | Idea, classification, experiment, operational handover, regular review, and retirement | When an app idea may become a shared and maintained work tool | [App lifecycle](docs/entwuerfe/gedankenspiel-app-lifecycle.en.md) |
+| [Collaboration between people and AI agents](docs/prozesse/zusammenarbeit-mensch-ki.en.md) | Task ownership, status updates, handoffs, AI reviews, and follow-up work | When several people with their own AI agents work on shared changes | [GitHub with local Claude clients](docs/anwendungsfaelle/teamprozess-mensch-ki-github.en.md) |
+| [Lifecycle of shared applications](docs/prozesse/anwendungs-lebenszyklus.en.md) | Idea, classification, trial, operational handover, regular review, and retirement | When an idea may become a shared and maintained application | [App lifecycle in a company](docs/anwendungsfaelle/gedankenspiel-app-lifecycle.en.md) |
 
-Both processes have the status Draft: they are standalone proposals whose
-practical use has not yet been proven.
+The processes are generally applicable and written independently of tools and
+organizations. Use cases show how a process can be implemented in a specific
+context. All content has the status Draft: these are proposals whose practical
+use has not yet been proven.
 
 ## Use the playbook
 

@@ -20,13 +20,14 @@ geprüfte Nachweise. Erfahrungen werden nicht erfunden.
 - [Projektübersicht](../README.md): Zweck, Einstieg, Status und Arbeitsstand.
 - [Vision und Wiederaufnahme](../vision.md): Zielbild, aktueller Stand und nächste Schritte.
 - [Projektregeln](../AGENTS.md): Regeln für die Arbeit am Repository.
-- `entwuerfe/`: die beiden übernommenen Ausgangsdokumente, getrennt voneinander.
+- `prozesse/`: allgemein gültige Prozesse und Standards, werkzeug- und organisationsneutral.
+- `anwendungsfaelle/`: konkrete Ausprägungen eines Prozesses in einem benannten Kontext.
 - [Inhaltsvorlage](vorlagen/inhalt.md): Struktur für neue oder angepasste Inhalte.
 - [Änderungsanfrage](vorlagen/aenderungsanfrage.md): lokal nutzbar, später als Issue.
 - [Pull-Request-Vorlage](vorlagen/pull-request.md): lokaler PR-Entwurf, später als PR.
 - `.agents/skills/` im Projekt: Skills für Inhalte, Überarbeitungen und Anfragen/PRs.
 
-Dokumente verwenden UTF-8-Markdown (`.md`), deutsche Prosa, eine H1-Überschrift
+Dokumente verwenden UTF-8-Markdown (`.md`), Prosa in der Sprache der Fassung, eine H1-Überschrift
 und logisch folgende H2/H3-Abschnitte. Dateinamen sind sprechend, kleingeschrieben
 und mit Bindestrichen getrennt. Links sind relativ; externe URLs nur nach Prüfung.
 Codeblöcke nennen ihre Sprache, bei Formulartext `text`. Tabellen dienen echten
@@ -45,9 +46,13 @@ Originale und die einzige Ausnahme von der Sprachpaar-Regel. Die Zuordnung von
 
 Neue Inhalte folgen: **Problem → Zielgruppe → Rollen → Ablauf → Vorlagen →
 Grenzen**. Pflegeangaben stehen davor, Quellen und Änderungsverlauf danach.
-Die übernommenen Erstentwürfe behalten ausdrücklich ihre eigene Gliederung und
-ihren Originaltext; ihre Einordnung und Pflegeangaben sind ergänzt. Eine spätere
-Umgliederung benötigt einen konkreten Auftrag.
+Allgemeine Prozesse und Standards beschreiben Rollen und Abläufe ohne Bindung an
+ein bestimmtes Werkzeug, einen Agenten oder eine Organisation. Ein Anwendungsfall
+beschreibt eine konkrete Ausprägung in einem benannten Kontext, verweist im Kopf
+auf seinen allgemeinen Prozess und darf eine eigene Gliederung haben.
+Kontextspezifisches gehört in den Anwendungsfall, nicht in den Prozess. Die beiden
+übernommenen Anwendungsfälle behalten ihren Originaltext; eine Umgliederung
+benötigt einen konkreten Auftrag.
 
 ## Status und Verbindlichkeit
 
@@ -78,13 +83,15 @@ Ein Agent kann die Prüfung unterstützen; er ersetzt keine menschliche Entschei
 
 ## Änderungen und Anfragen
 
-Vor einer Änderung bestehende Dokumente und offene Anfragen prüfen. Lokal eine
-Kopie der Anfragevorlage mit eindeutigem Dateinamen und relativen Links verwenden.
+Vor einer Änderung bestehende Dokumente und offene Anfragen prüfen. Wird eine
+Anfrage angelegt, lokal eine Kopie der Anfragevorlage mit eindeutigem Dateinamen
+und relativen Links verwenden.
 Die Anfrage hält Problem, Ziel, Umfang, Akzeptanzkriterien und Entscheidung fest.
 Umgesetzte Änderungen bekommen einen kurzen Eintrag im Änderungsverlauf; Details
 stehen in der verlinkten Anfrage statt in mehreren parallelen Protokollen.
 
-Sobald GitHub eingerichtet ist, werden Anfragen als Issues und Änderungen als
+Bis zu einer fertigen Startversion werden Änderungen direkt im Repository
+vorgenommen. Danach werden Anfragen als GitHub-Issues und Änderungen als
 verknüpfte PRs nachvollziehbar. Bestehende lokale Anfragen weiterverwenden und auf
 das überführte Issue verweisen. Keine erfundenen Issue-Nummern, PRs oder URLs.
 Ein PR-Entwurf allein erteilt keine Erlaubnis für Commit, Push oder Veröffentlichung.

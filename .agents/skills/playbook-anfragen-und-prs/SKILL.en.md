@@ -29,7 +29,7 @@ match the final scope.
 Link the underlying request. Use closing syntax such as `Closes #…` only for a
 real issue fully resolved by the PR. Record open follow-up work separately and
 link it in both directions; retain rejections with a reason. When applying the
-[team process](../../../docs/entwuerfe/teamprozess-mensch-ki-github.en.md), follow
+[team process](../../../docs/anwendungsfaelle/teamprozess-mensch-ki-github.en.md), follow
 its review ownership, commit reference, and follow-up rules.
 
 Without a configured remote, provide a local PR draft. A real PR requires a

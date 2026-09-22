@@ -20,7 +20,8 @@ actually verified. Experience is never invented.
 - [Project overview](../README.en.md): purpose, entry point, status, and working state.
 - [Vision and continuation guide](../vision.en.md): target state, current state, and next steps.
 - [Project rules](../AGENTS.en.md): rules for work in this repository; German is authoritative.
-- `entwuerfe/`: the two initial documents, kept separate.
+- `prozesse/`: generally applicable processes and standards, independent of tools and organizations.
+- `anwendungsfaelle/`: specific implementations of a process in a named context.
 - [Content template](vorlagen/inhalt.en.md): structure for new or adapted content.
 - [Change request](vorlagen/aenderungsanfrage.en.md): usable locally and later as an issue.
 - [Pull request template](vorlagen/pull-request.en.md): local PR draft and later a pull request.
@@ -44,8 +45,12 @@ the sole exception to the language-pair rule. The allocation of `CC-BY-4.0` and
 
 New content follows: **Problem → Audience → Roles → Process → Templates →
 Limits**. Maintenance metadata precedes these sections; sources and change
-history follow them. The two initial drafts retain their own structure and source
-text. Restructuring them requires a specific request.
+history follow them. General processes and standards describe roles and
+procedures without tying them to a specific tool, agent, or organization. A use
+case describes a specific implementation in a named context, links to its general
+process in its header, and may use its own structure. Context-specific content
+belongs in the use case, not in the process. The two adopted use cases retain
+their source text; restructuring them requires a specific request.
 
 ## Status and adoption
 
@@ -74,14 +79,15 @@ agent may support the review but cannot replace a human decision.
 
 ## Changes and requests
 
-Before changing content, check existing documents and open requests. Locally,
-copy the request template under a unique descriptive file name and use relative
+Before changing content, check existing documents and open requests. When a
+request is created locally, copy the request template under a unique descriptive file name and use relative
 links. A request records the problem, goal, scope, acceptance criteria, and
 decision. Implemented changes receive a short change-history entry; details live
 in the linked request rather than in parallel records.
 
-Once GitHub is configured, requests become issues and changes become linked pull
-requests. Reuse local requests and link to the migrated issue. Never invent issue
+Until a finished start version exists, changes are made directly in the
+repository. After that, requests become GitHub issues and changes become linked
+pull requests. Reuse local requests and link to the migrated issue. Never invent issue
 numbers, pull requests, or URLs. A pull request draft does not authorize a commit,
 push, or publication. Record concrete follow-up work as separate, mutually linked
 requests; preserve rejected requests with a reason. When using the team process,

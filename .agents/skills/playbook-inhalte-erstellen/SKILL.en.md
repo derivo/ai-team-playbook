@@ -10,7 +10,10 @@ this skill directory.
 
 Check the catalog and existing documents for the same purpose. If the problem,
 audience, or critical limits are missing, clarify them before dependent work.
-Define the outline from the content template before writing prose.
+Define the outline from the content template before writing prose. General
+processes and standards belong in `docs/prozesse/` and stay independent of
+tools and organizations; content for a named context is a use case in
+`docs/anwendungsfaelle/` that links to its process.
 
 Create exactly the requested content as a German and English language pair. The
 German default keeps the file name without a suffix; English uses `.en.md`. Both

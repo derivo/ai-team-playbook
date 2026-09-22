@@ -5,7 +5,7 @@ Deutsch (Standard) | [English](vision.en.md)
 - Status: Entwurf
 - Pflegeverantwortung: Maintainer-Team (prüft Änderungen im Review)
 - Inhaltlich geprüft: 2026-09-22 gegen den lokalen Projektstand
-- Nächster Prüfanlass: vor der ersten Veröffentlichung oder bei einer Änderung des Projektziels
+- Nächster Prüfanlass: vor der Startversion oder bei einer Änderung des Projektziels
 - Erprobungsnachweis: Keiner; die Bibliothek ist noch nicht praktisch erprobt.
 - Verbindlichkeit: Jedes übernehmende Team entscheidet selbst.
 
@@ -40,6 +40,12 @@ Playbook-Inhalte. Jeder Inhalt beschreibt Problem, Zielgruppe, Rollen, Ablauf,
 direkt nutzbare Vorlagen und Grenzen. Der Status zeigt, ob ein Inhalt ein Entwurf,
 in einem dokumentierten Kontext erprobt oder durch einen Nachfolger abgelöst ist.
 
+Prozesse und Standards sind allgemein gültig und unabhängig von Werkzeugen,
+Agenten und Organisationen formuliert. Aus ihnen werden reale Anwendungsfälle
+abgeleitet, etwa die Arbeit mit GitHub in einem Unternehmen, in dem Kollegen
+eigene Claude-Clients nutzen. Ein Anwendungsfall verweist auf seinen Prozess und
+beschreibt nur, was in seinem Kontext konkret anders oder genauer geregelt ist.
+
 Projektlokale Skills führen Menschen und Agenten durch das Erstellen, Anpassen
 und Ändern der Inhalte. Änderungsanfragen und Pull Requests verbinden Bedarf,
 Entscheidung, Umsetzung und Prüfnachweis. Erfahrungen werden erst dann als solche
@@ -69,7 +75,9 @@ Am 2026-09-22 wurde der folgende lokale Stand geprüft:
 - Der Projektordner `/Users/dennis/code/ai-team-playbook` besteht.
 - [Projektübersicht](README.md), [Projektregeln](AGENTS.md) und
   [Dokumentstruktur](docs/README.md) sind angelegt.
-- Zwei getrennte Erstentwürfe liegen unter `docs/entwuerfe/`.
+- Zwei allgemeine Prozesse liegen unter `docs/prozesse/`. Die beiden
+  übernommenen Erstentwürfe liegen als Anwendungsfälle unter
+  `docs/anwendungsfaelle/` und verweisen auf ihren Prozess.
 - Vorlagen für Inhalte, Änderungsanfragen und Pull Requests liegen unter
   `docs/vorlagen/`.
 - Drei projektlokale Skills unterstützen Erstellung, Anpassung sowie Anfragen
@@ -85,14 +93,25 @@ Am 2026-09-22 wurde der folgende lokale Stand geprüft:
 Dieser Abschnitt ist eine Momentaufnahme. Bei der Wiederaufnahme müssen die
 Aussagen gegen den tatsächlichen Projektstand geprüft werden.
 
-## Ablauf bis zur ersten Veröffentlichung
+## Ablauf bis zur Startversion
 
 ### 1. Inhalt und Grenzen prüfen
 
+Status: am 2026-09-22 geprüft und umgesetzt; zwei Punkte sind offen.
+
 Die beiden Erstentwürfe, Vorlagen, Skills und diese Vision gemeinsam prüfen.
-Offene Änderungswünsche als lokale Änderungsanfragen erfassen. Akzeptanzkriterium:
+Offene Änderungswünsche erfassen. Akzeptanzkriterium:
 Projektzweck, Zielgruppe, Abgrenzung und erste Inhalte widersprechen einander
 nicht; verbleibende Streitpunkte sind ausdrücklich dokumentiert.
+
+Ergebnis: Die Entwürfe waren an ein Unternehmen und bestimmte Werkzeuge
+gebunden. Entschieden wurde, Prozesse allgemein gültig zu formulieren und die
+Entwürfe als Anwendungsfälle zu führen. Bis zur Startversion werden Änderungen
+direkt im Repository vorgenommen, danach als GitHub-Issues erfasst. Offen:
+
+- UNBEKANNT: Kriterium, ab dem die Startversion als fertig gilt.
+- UNBEKANNT: ob neue Inhalte standardmäßig vom Maintainer-Team gepflegt werden
+  und wer die Rolle der Inhaltsverantwortlichen übernimmt.
 
 ### 2. Pflege und Lizenz entscheiden
 
@@ -144,12 +163,13 @@ Eine neue Session beginnt mit diesem Block:
 Ziel: Die Arbeit am AI Team Playbook am ersten unerledigten Schritt fortsetzen.
 Projekt: /Users/dennis/code/ai-team-playbook
 
-1. AGENTS.md, vision.md, README.md und docs/README.md vollständig lesen.
+1. AGENTS.md, vision.md, vision.en.md, README.md und docs/README.md vollständig
+   lesen.
 2. Projektdateien und gegebenenfalls git status prüfen; nichts aus dieser
    Momentaufnahme ungeprüft übernehmen.
 3. Vorhandene Änderungsanfragen und offene Entscheidungen suchen.
-4. Den ersten unerledigten Schritt unter „Ablauf bis zur ersten
-   Veröffentlichung“ benennen und nur dessen Voraussetzungen bearbeiten.
+4. Den ersten unerledigten Schritt unter „Ablauf bis zur Startversion“
+   benennen und nur dessen Voraussetzungen bearbeiten.
 5. Keine andere Lizenz wählen, keinen Commit erstellen, nicht pushen und nichts
    veröffentlichen, solange das nicht ausdrücklich beauftragt beziehungsweise
    freigegeben wurde.
@@ -190,3 +210,6 @@ nicht vorsorglich angelegt.
 - 2026-09-22: Lizenzierung (`CC-BY-4.0` für redaktionelle Inhalte, `Apache-2.0`
   für Software) festgehalten und das Maintainer-Team als Pflegeverantwortung
   eingetragen; Schritt 2 als umgesetzt markiert.
+- 2026-09-22: Schritt 1 umgesetzt: allgemeine Prozesse unter `docs/prozesse/`
+  angelegt, Erstentwürfe als Anwendungsfälle nach `docs/anwendungsfaelle/`
+  verschoben, Ablauf auf die Startversion ausgerichtet.

@@ -30,8 +30,10 @@ bleiben unverändert auf Englisch und sind von der Sprachpaar-Regel ausgenommen.
 - Änderungsanfrage oder PR: [playbook-anfragen-und-prs](.agents/skills/playbook-anfragen-und-prs/SKILL.md).
 
 Nur den benötigten Skill laden. Vor einem neuen Dokument nach vorhandenem Inhalt
-zum selben Zweck prüfen. Die zwei Erstentwürfe getrennt halten und ihre Inhalte
-nur im Umfang eines konkreten Änderungsauftrags bearbeiten.
+zum selben Zweck prüfen. Allgemeine Prozesse und Standards werkzeug- und
+organisationsneutral halten; konkrete Ausprägungen als Anwendungsfälle daneben
+ablegen, die auf ihren Prozess verweisen. Inhalte nur im Umfang eines konkreten
+Änderungsauftrags bearbeiten.
 
 ## Änderungsgrenzen
 

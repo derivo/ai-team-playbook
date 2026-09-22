@@ -34,7 +34,7 @@ Titel und Beschreibung an den endgültigen Änderungsumfang an.
 Verknüpfe die zugrunde liegende Anfrage. Abschlussverknüpfungen wie `Closes #…`
 nur für echte, vollständig erfüllte Issues verwenden. Offene Nacharbeiten separat
 und gegenseitig verlinken; Ablehnungen mit Grund dokumentieren. Bei Anwendung des
-[Teamprozesses](../../../docs/entwuerfe/teamprozess-mensch-ki-github.md) dessen
+[Teamprozesses](../../../docs/anwendungsfaelle/teamprozess-mensch-ki-github.md) dessen
 Review-Übernahme, Commit-Bezug und Nacharbeitsregeln berücksichtigen.
 
 Ohne eingerichtetes Remote einen lokalen PR-Entwurf liefern. Ein echter PR

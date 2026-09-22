@@ -13,7 +13,10 @@ Skill-Verzeichnis.
 
 Prüfe den Katalog und bestehende Inhalte auf denselben Zweck. Fehlen Problem,
 Zielgruppe oder entscheidende Grenzen, kläre sie vor abhängiger Arbeit. Definiere
-die Gliederung anhand der Inhaltsvorlage, bevor du Prosa schreibst.
+die Gliederung anhand der Inhaltsvorlage, bevor du Prosa schreibst. Allgemeine
+Prozesse und Standards gehören nach `docs/prozesse/` und bleiben werkzeug- und
+organisationsneutral; Inhalt für einen benannten Kontext ist ein Anwendungsfall
+unter `docs/anwendungsfaelle/`, der auf seinen Prozess verweist.
 
 Erstelle genau den angefragten Inhalt als deutsches und englisches Sprachpaar.
 Die deutsche Standardfassung behält den Dateinamen ohne Sprachsuffix; die

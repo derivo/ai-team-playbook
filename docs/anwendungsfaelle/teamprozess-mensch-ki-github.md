@@ -6,8 +6,10 @@ Deutsch (Standard) | [English](teamprozess-mensch-ki-github.en.md)
 - Pflegeverantwortung: Maintainer-Team (prüft Änderungen im Review)
 - Inhaltlich geprüft: Ausgangsentwurf übernommen; keine Praxiserprobung belegt.
 - Nächster Prüfanlass: vor einer Übernahme ins Team und bei praktischen Rückmeldungen
+- Erprobungsnachweis: Keiner; nicht als erprobt ausgewiesen.
 - Verbindlichkeit: Das übernehmende Team entscheidet; die folgenden Vorgaben sind ein Vorschlag.
 - Beispiele: Illustrativ und fiktiv; keine dokumentierten Erfahrungsfälle.
+- Allgemeiner Prozess: [Zusammenarbeit von Menschen und KI-Agenten](../prozesse/zusammenarbeit-mensch-ki.md); dieser Anwendungsfall ist eine konkrete Ausprägung davon.
 
 Pflege und Formate: [Dokumentstruktur](../README.md).
 

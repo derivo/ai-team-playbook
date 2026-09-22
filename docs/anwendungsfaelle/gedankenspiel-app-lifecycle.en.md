@@ -6,8 +6,10 @@
 - Maintainer: maintainer team (reviews changes)
 - Content checked: Initial draft adopted; no practical use has been proven.
 - Next review trigger: before team adoption and when practical feedback arrives
+- Evidence of practical use: None; not marked as proven.
 - Adoption: The adopting team decides; the following rules are a proposal.
 - Examples: Illustrative and fictional; they are not documented experience.
+- General process: [Lifecycle of shared applications](../prozesse/anwendungs-lebenszyklus.en.md); this use case is a specific implementation of it.
 
 Maintenance and formats: [Documentation structure](../README.en.md).
 

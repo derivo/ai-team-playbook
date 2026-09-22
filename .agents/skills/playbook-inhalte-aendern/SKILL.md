@@ -18,12 +18,13 @@ Aussagen, Links und Änderungsverlauf fachlich übereinstimmen. Fehlt bei einem
 
 Unterscheide Aktualisierung des gemeinsamen Vorschlags von einer ausdrücklich
 gewünschten Teamvariante. Lege nur auf Auftrag eine Variante an; verweise darin
-auf den Ursprung und dokumentiere Abweichungen. Für neue Varianten gilt die
+auf den Ursprung und dokumentiere Abweichungen; eine Variante für einen benannten
+Kontext ist ein Anwendungsfall unter `docs/anwendungsfaelle/`. Für neue Varianten gilt die
 [Inhaltsvorlage](../../../docs/vorlagen/inhalt.md).
 
 Prüfe geänderte Quellen und die weiterhin bestehenden Aussagen des betroffenen
-Dokuments. Ändere nur die beauftragten Stellen. Bewahre die Eigenständigkeit der
-beiden Erstentwürfe; nicht im Zuge einer Aktualisierung zusammenführen.
+Dokuments. Ändere nur die beauftragten Stellen. Halte allgemeine Prozesse und
+Anwendungsfälle getrennt: Kontextspezifisches gehört in den Anwendungsfall.
 
 Bewerte den Status anhand der Nachweise: Eine Überarbeitung allein macht einen
 Entwurf nicht erprobt. Bei Ablösung Grund und Nachfolger beziehungsweise dessen

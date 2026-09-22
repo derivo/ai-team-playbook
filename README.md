@@ -11,13 +11,15 @@ entscheidet selbst, welche Inhalte es übernimmt, anpasst und verbindlich macht.
 
 ## Prozessübersicht
 
-| Prozess | Was wird geregelt? | Wann ist er hilfreich? | Dokument |
+| Prozess | Was wird geregelt? | Wann ist er hilfreich? | Anwendungsfall |
 | --- | --- | --- | --- |
-| Zusammenarbeit über Issues und Pull Requests | Aufgabenübernahme, Statuspflege, Übergaben, KI-Reviews und Nacharbeiten | Wenn mehrere Menschen und lokale KI-Agenten an gemeinsamen Änderungen arbeiten | [Teamprozess](docs/entwuerfe/teamprozess-mensch-ki-github.md) |
-| Lebenszyklus gemeinsam genutzter Apps | Idee, Einordnung, Experiment, Betriebsübernahme, regelmäßige Prüfung und Abschaltung | Wenn aus einer App-Idee ein gemeinsam genutztes und betreutes Arbeitsmittel werden kann | [App-Lifecycle](docs/entwuerfe/gedankenspiel-app-lifecycle.md) |
+| [Zusammenarbeit von Menschen und KI-Agenten](docs/prozesse/zusammenarbeit-mensch-ki.md) | Aufgabenübernahme, Statuspflege, Übergaben, KI-Reviews und Nacharbeiten | Wenn mehrere Menschen mit eigenen KI-Agenten an gemeinsamen Änderungen arbeiten | [GitHub mit lokalen Claude-Clients](docs/anwendungsfaelle/teamprozess-mensch-ki-github.md) |
+| [Lebenszyklus gemeinsam genutzter Anwendungen](docs/prozesse/anwendungs-lebenszyklus.md) | Idee, Einordnung, Versuch, Betriebsübernahme, regelmäßige Prüfung und Abschaltung | Wenn aus einer Idee eine gemeinsam genutzte und betreute Anwendung werden kann | [App-Lifecycle im Unternehmen](docs/anwendungsfaelle/gedankenspiel-app-lifecycle.md) |
 
-Beide Prozesse haben den Status Entwurf: Es sind eigenständige Vorschläge, deren
-praktische Erprobung noch nicht belegt ist.
+Die Prozesse sind allgemein gültig und unabhängig von Werkzeugen und
+Organisationen formuliert. Anwendungsfälle zeigen, wie ein Prozess in einem
+konkreten Kontext ausgeprägt sein kann. Alle Inhalte haben den Status Entwurf:
+Es sind Vorschläge, deren praktische Erprobung noch nicht belegt ist.
 
 ## Playbook verwenden
 

@@ -6,8 +6,10 @@ Deutsch (Standard) | [English](gedankenspiel-app-lifecycle.en.md)
 - Pflegeverantwortung: Maintainer-Team (prüft Änderungen im Review)
 - Inhaltlich geprüft: Ausgangsentwurf übernommen; keine Praxiserprobung belegt.
 - Nächster Prüfanlass: vor einer Übernahme ins Team und bei praktischen Rückmeldungen
+- Erprobungsnachweis: Keiner; nicht als erprobt ausgewiesen.
 - Verbindlichkeit: Das übernehmende Team entscheidet; die folgenden Vorgaben sind ein Vorschlag.
 - Beispiele: Illustrativ und fiktiv; keine dokumentierten Erfahrungsfälle.
+- Allgemeiner Prozess: [Lebenszyklus gemeinsam genutzter Anwendungen](../prozesse/anwendungs-lebenszyklus.md); dieser Anwendungsfall ist eine konkrete Ausprägung davon.
 
 Pflege und Formate: [Dokumentstruktur](../README.md).
 
