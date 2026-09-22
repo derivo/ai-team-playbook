@@ -59,7 +59,7 @@ Teams adopt only the parts they deliberately select and adapt.
   reviews changes. In a fork or copy, the adopting team names its own
   maintainers.
 - Content owners review individual processes and their evidence when changes or
-  practical feedback occur.
+  practical feedback occur. The maintainer team currently takes this role.
 - Contributors describe change needs traceably and supply suitable evidence.
 - Adopting teams decide how to adapt material and whether to make it binding.
 - AI agents support research, creation, and verification but do not make
@@ -93,7 +93,7 @@ actual project state.
 
 ### 1. Review content and boundaries
 
-Status: reviewed and implemented on 2026-09-22; two points remain open.
+Status: reviewed and implemented on 2026-09-22.
 
 Review both initial drafts, the templates, the skills, and this vision together.
 Record open changes. Acceptance criterion: project
@@ -103,11 +103,9 @@ remaining disagreements are documented explicitly.
 Result: the drafts were tied to one company and specific tools. The decision was
 to write processes as generally applicable and to keep the drafts as use cases.
 Until the start version, changes are made directly in the repository; afterwards
-they are recorded as GitHub issues. Open:
-
-- UNKNOWN: criterion for when the start version counts as finished.
-- UNKNOWN: who takes the content owner role. Decided: new content is maintained
-  by the maintainer team by default.
+they are recorded as GitHub issues. New content is maintained by the maintainer
+team by default; it currently also takes the content owner role. The start
+version is finished when the maintainer team explicitly declares it finished.
 
 ### 2. Decide maintenance and license
 
@@ -138,6 +136,10 @@ an unambiguous upstream. Push and publication cover only the explicitly approved
 scope.
 
 ### 5. Trial one document
+
+Status: prepared on 2026-09-22, see the
+[trial plan](docs/erprobungen/teamprozess-mensch-ki-github.en.md); team,
+repository, participants, and period still need to be defined.
 
 A team selects a draft, adapts it to a named context, and documents the period,
 approach, result, and limits. Acceptance criterion: an uninvolved person can
@@ -207,3 +209,5 @@ advance.
   cases, and aligned the process with the start version.
 - 2026-09-22: Set the maintainer team as default maintainer for new content in
   the template, documentation structure, and skill.
+- 2026-09-22: Decided the start version criterion and content ownership;
+  prepared the trial of the team process.

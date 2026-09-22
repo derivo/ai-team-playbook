@@ -61,7 +61,8 @@ anpassen.
   aktuell und prüft Änderungen im Review. In einem Fork oder einer Kopie
   benennt das übernehmende Team eigene Zuständige.
 - Inhaltsverantwortliche prüfen einzelne Prozesse und ihre Nachweise bei
-  Änderungen oder praktischen Rückmeldungen.
+  Änderungen oder praktischen Rückmeldungen. Derzeit übernimmt das
+  Maintainer-Team diese Rolle.
 - Beitragende beschreiben Änderungsbedarf nachvollziehbar und liefern passende
   Prüfnachweise.
 - Übernehmende Teams entscheiden selbst über Anpassung und Verbindlichkeit.
@@ -97,7 +98,7 @@ Aussagen gegen den tatsächlichen Projektstand geprüft werden.
 
 ### 1. Inhalt und Grenzen prüfen
 
-Status: am 2026-09-22 geprüft und umgesetzt; zwei Punkte sind offen.
+Status: am 2026-09-22 geprüft und umgesetzt.
 
 Die beiden Erstentwürfe, Vorlagen, Skills und diese Vision gemeinsam prüfen.
 Offene Änderungswünsche erfassen. Akzeptanzkriterium:
@@ -107,11 +108,10 @@ nicht; verbleibende Streitpunkte sind ausdrücklich dokumentiert.
 Ergebnis: Die Entwürfe waren an ein Unternehmen und bestimmte Werkzeuge
 gebunden. Entschieden wurde, Prozesse allgemein gültig zu formulieren und die
 Entwürfe als Anwendungsfälle zu führen. Bis zur Startversion werden Änderungen
-direkt im Repository vorgenommen, danach als GitHub-Issues erfasst. Offen:
-
-- UNBEKANNT: Kriterium, ab dem die Startversion als fertig gilt.
-- UNBEKANNT: wer die Rolle der Inhaltsverantwortlichen übernimmt. Entschieden
-  ist: Neue Inhalte pflegt standardmäßig das Maintainer-Team.
+direkt im Repository vorgenommen, danach als GitHub-Issues erfasst. Neue Inhalte
+pflegt standardmäßig das Maintainer-Team; es übernimmt derzeit auch die Rolle der
+Inhaltsverantwortlichen. Die Startversion ist fertig, wenn das Maintainer-Team
+sie ausdrücklich für fertig erklärt.
 
 ### 2. Pflege und Lizenz entscheiden
 
@@ -143,6 +143,10 @@ lokale Branch ist eindeutig zugeordnet. Push und Veröffentlichung erfolgen nur
 im ausdrücklich freigegebenen Umfang.
 
 ### 5. Einen Inhalt erproben
+
+Status: am 2026-09-22 vorbereitet, siehe
+[Erprobungsplan](docs/erprobungen/teamprozess-mensch-ki-github.md); Team,
+Repository, Teilnehmende und Zeitraum sind noch festzulegen.
 
 Ein Team wählt einen Entwurf aus, passt ihn an einen benannten Kontext an und
 dokumentiert Zeitraum, Vorgehen, Ergebnis und Grenzen. Akzeptanzkriterium: Eine
@@ -215,3 +219,5 @@ nicht vorsorglich angelegt.
   verschoben, Ablauf auf die Startversion ausgerichtet.
 - 2026-09-22: Maintainer-Team als Standard-Pflegeverantwortung für neue Inhalte
   in Vorlage, Dokumentstruktur und Skill festgelegt.
+- 2026-09-22: Startversion und Inhaltsverantwortung entschieden; Erprobung des
+  Teamprozesses vorbereitet.

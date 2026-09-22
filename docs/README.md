@@ -22,6 +22,7 @@ geprüfte Nachweise. Erfahrungen werden nicht erfunden.
 - [Projektregeln](../AGENTS.md): Regeln für die Arbeit am Repository.
 - `prozesse/`: allgemein gültige Prozesse und Standards, werkzeug- und organisationsneutral.
 - `anwendungsfaelle/`: konkrete Ausprägungen eines Prozesses in einem benannten Kontext.
+- `erprobungen/`: Plan, Beobachtungen und Ergebnis einer praktischen Erprobung.
 - [Inhaltsvorlage](vorlagen/inhalt.md): Struktur für neue oder angepasste Inhalte.
 - [Änderungsanfrage](vorlagen/aenderungsanfrage.md): lokal nutzbar, später als Issue.
 - [Pull-Request-Vorlage](vorlagen/pull-request.md): lokaler PR-Entwurf, später als PR.

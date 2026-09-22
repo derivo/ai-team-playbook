@@ -22,6 +22,7 @@ actually verified. Experience is never invented.
 - [Project rules](../AGENTS.en.md): rules for work in this repository; German is authoritative.
 - `prozesse/`: generally applicable processes and standards, independent of tools and organizations.
 - `anwendungsfaelle/`: specific implementations of a process in a named context.
+- `erprobungen/`: plan, observations, and result of a practical trial.
 - [Content template](vorlagen/inhalt.en.md): structure for new or adapted content.
 - [Change request](vorlagen/aenderungsanfrage.en.md): usable locally and later as an issue.
 - [Pull request template](vorlagen/pull-request.en.md): local PR draft and later a pull request.
