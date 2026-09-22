@@ -76,8 +76,8 @@ Am 2026-09-22 wurde der folgende lokale Stand geprüft:
 - Der Projektordner `/Users/dennis/code/ai-team-playbook` besteht.
 - [Projektübersicht](README.md), [Projektregeln](AGENTS.md) und
   [Dokumentstruktur](docs/README.md) sind angelegt.
-- Zwei allgemeine Prozesse liegen unter `docs/prozesse/`. Die beiden
-  übernommenen Erstentwürfe liegen als Anwendungsfälle unter
+- Zwei allgemeine Prozesse liegen unter `docs/prozesse/`, fünf Standards unter
+  `docs/standards/`. Die beiden übernommenen Erstentwürfe liegen als Anwendungsfälle unter
   `docs/anwendungsfaelle/` und verweisen auf ihren Prozess.
 - Vorlagen für Inhalte, Änderungsanfragen und Pull Requests liegen unter
   `docs/vorlagen/`.
@@ -221,3 +221,6 @@ nicht vorsorglich angelegt.
   in Vorlage, Dokumentstruktur und Skill festgelegt.
 - 2026-09-22: Startversion und Inhaltsverantwortung entschieden; Erprobung des
   Teamprozesses vorbereitet.
+- 2026-09-22: Fünf Standards zu Freigabegrenzen, Nachweisen, Daten und
+  Vertraulichkeit, Agent-Konfiguration und Kennzeichnung von KI-Beiträgen unter
+  `docs/standards/` angelegt.

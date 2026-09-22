@@ -17,9 +17,19 @@ adapt, and make binding.
 | [Lifecycle of shared applications](docs/prozesse/anwendungs-lebenszyklus.en.md) | Idea, classification, trial, operational handover, regular review, and retirement | When an idea may become a shared and maintained application | [App lifecycle in a company](docs/anwendungsfaelle/gedankenspiel-app-lifecycle.en.md) |
 
 The processes are generally applicable and written independently of tools and
-organizations. Use cases show how a process can be implemented in a specific
-context. All content has the status Draft: these are proposals whose practical
+organizations; the same applies to the standards below. Use cases show how a
+process can be implemented in a specific context. All content has the status Draft: these are proposals whose practical
 use has not yet been proven.
+
+## Standards
+
+| Standard | What does it govern? |
+| --- | --- |
+| [Approval boundaries for AI agents](docs/standards/freigabegrenzen-fuer-agenten.en.md) | What an agent may do on its own and what requires human approval |
+| [Evidence instead of self-assessment](docs/standards/nachweis-statt-selbsteinschaetzung.en.md) | Completion reports with observed check results, unknowns marked |
+| [Data and confidentiality when using AI](docs/standards/daten-und-vertraulichkeit.en.md) | Which data may go to which AI tools, protection of credentials |
+| [Agent configuration as a maintained artifact](docs/standards/agent-konfiguration.en.md) | Agent rules and skills versioned in the project, with review and a way back |
+| [Labeling AI contributions](docs/standards/kennzeichnung-von-ki-beitraegen.en.md) | When and how AI contributions become visible in commits, change proposals, and reviews |
 
 ## Use the playbook
 

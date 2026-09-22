@@ -20,7 +20,8 @@ actually verified. Experience is never invented.
 - [Project overview](../README.en.md): purpose, entry point, status, and working state.
 - [Vision and continuation guide](../vision.en.md): target state, current state, and next steps.
 - [Project rules](../AGENTS.en.md): rules for work in this repository; German is authoritative.
-- `prozesse/`: generally applicable processes and standards, independent of tools and organizations.
+- `prozesse/`: generally applicable processes, independent of tools and organizations.
+- `standards/`: generally applicable standards, independent of tools and organizations.
 - `anwendungsfaelle/`: specific implementations of a process in a named context.
 - `erprobungen/`: plan, observations, and result of a practical trial.
 - [Content template](vorlagen/inhalt.en.md): structure for new or adapted content.

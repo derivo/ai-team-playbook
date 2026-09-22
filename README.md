@@ -17,9 +17,20 @@ entscheidet selbst, welche Inhalte es übernimmt, anpasst und verbindlich macht.
 | [Lebenszyklus gemeinsam genutzter Anwendungen](docs/prozesse/anwendungs-lebenszyklus.md) | Idee, Einordnung, Versuch, Betriebsübernahme, regelmäßige Prüfung und Abschaltung | Wenn aus einer Idee eine gemeinsam genutzte und betreute Anwendung werden kann | [App-Lifecycle im Unternehmen](docs/anwendungsfaelle/gedankenspiel-app-lifecycle.md) |
 
 Die Prozesse sind allgemein gültig und unabhängig von Werkzeugen und
-Organisationen formuliert. Anwendungsfälle zeigen, wie ein Prozess in einem
-konkreten Kontext ausgeprägt sein kann. Alle Inhalte haben den Status Entwurf:
+Organisationen formuliert; das gilt ebenso für die Standards unten.
+Anwendungsfälle zeigen, wie ein Prozess in einem konkreten Kontext ausgeprägt
+sein kann. Alle Inhalte haben den Status Entwurf:
 Es sind Vorschläge, deren praktische Erprobung noch nicht belegt ist.
+
+## Standards
+
+| Standard | Was wird geregelt? |
+| --- | --- |
+| [Freigabegrenzen für KI-Agenten](docs/standards/freigabegrenzen-fuer-agenten.md) | Was ein Agent selbstständig tun darf und was eine menschliche Freigabe braucht |
+| [Nachweis statt Selbsteinschätzung](docs/standards/nachweis-statt-selbsteinschaetzung.md) | Fertig-Meldungen mit beobachteten Prüfergebnissen, Unbekanntes gekennzeichnet |
+| [Daten und Vertraulichkeit bei KI-Nutzung](docs/standards/daten-und-vertraulichkeit.md) | Welche Daten an welche KI-Werkzeuge gehen dürfen, Schutz von Zugangsdaten |
+| [Agent-Konfiguration als gepflegtes Artefakt](docs/standards/agent-konfiguration.md) | Regeln und Skills für Agenten versioniert im Projekt, mit Review und Rückweg |
+| [Kennzeichnung von KI-Beiträgen](docs/standards/kennzeichnung-von-ki-beitraegen.md) | Wann und wie KI-Mitarbeit in Commits, Änderungsvorschlägen und Reviews sichtbar wird |
 
 ## Playbook verwenden
 

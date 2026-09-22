@@ -20,7 +20,8 @@ geprüfte Nachweise. Erfahrungen werden nicht erfunden.
 - [Projektübersicht](../README.md): Zweck, Einstieg, Status und Arbeitsstand.
 - [Vision und Wiederaufnahme](../vision.md): Zielbild, aktueller Stand und nächste Schritte.
 - [Projektregeln](../AGENTS.md): Regeln für die Arbeit am Repository.
-- `prozesse/`: allgemein gültige Prozesse und Standards, werkzeug- und organisationsneutral.
+- `prozesse/`: allgemein gültige Prozesse, werkzeug- und organisationsneutral.
+- `standards/`: allgemein gültige Standards, werkzeug- und organisationsneutral.
 - `anwendungsfaelle/`: konkrete Ausprägungen eines Prozesses in einem benannten Kontext.
 - `erprobungen/`: Plan, Beobachtungen und Ergebnis einer praktischen Erprobung.
 - [Inhaltsvorlage](vorlagen/inhalt.md): Struktur für neue oder angepasste Inhalte.

@@ -72,8 +72,8 @@ The following local state was checked on 2026-09-22:
 - The project directory `/Users/dennis/code/ai-team-playbook` exists.
 - [Project overview](README.en.md), [project rules](AGENTS.md), and
   [documentation structure](docs/README.en.md) exist.
-- Two general processes are stored under `docs/prozesse/`. The two adopted
-  initial drafts are stored as use cases under `docs/anwendungsfaelle/` and link
+- Two general processes are stored under `docs/prozesse/` and five standards
+  under `docs/standards/`. The two adopted initial drafts are stored as use cases under `docs/anwendungsfaelle/` and link
   to their process.
 - Content, change request, and pull request templates are stored under
   `docs/vorlagen/`.
@@ -211,3 +211,6 @@ advance.
   the template, documentation structure, and skill.
 - 2026-09-22: Decided the start version criterion and content ownership;
   prepared the trial of the team process.
+- 2026-09-22: Created five standards on approval boundaries, evidence, data and
+  confidentiality, agent configuration, and labeling AI contributions under
+  `docs/standards/`.
