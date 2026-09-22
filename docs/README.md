@@ -11,9 +11,9 @@ und eine bewusste Anpassung für ihren Kontext dokumentieren können.
 ## Umfang und Quellen
 
 Enthalten sind Dokumente, Vorlagen und Skills zur Inhaltspflege. Nicht enthalten
-sind installierte Automationen, ein verbindliches Firmenhandbuch oder eine
-festgelegte Lizenz. Quellen sind der konkrete Änderungsauftrag, die betroffenen
-Dokumente und tatsächlich geprüfte Nachweise. Erfahrungen werden nicht erfunden.
+sind installierte Automationen oder ein verbindliches Firmenhandbuch. Quellen
+sind der konkrete Änderungsauftrag, die betroffenen Dokumente und tatsächlich
+geprüfte Nachweise. Erfahrungen werden nicht erfunden.
 
 ## Ablage und Formate
 
@@ -38,6 +38,10 @@ Standardfassung verwendet den Dateinamen ohne Sprachsuffix, zum Beispiel
 `vision.en.md`. Beide Fassungen stehen im selben Verzeichnis, verlinken einander
 am Anfang und enthalten denselben fachlichen Stand. Eine Inhaltsänderung ist erst
 vollständig, wenn beide Fassungen aktualisiert und geprüft sind.
+
+Die offiziellen Rechtstexte unter `LICENSES/` sind unveränderte englische
+Originale und die einzige Ausnahme von der Sprachpaar-Regel. Die Zuordnung von
+`CC-BY-4.0` und `Apache-2.0` steht in der [Lizenzübersicht](../LICENSE.md).
 
 Neue Inhalte folgen: **Problem → Zielgruppe → Rollen → Ablauf → Vorlagen →
 Grenzen**. Pflegeangaben stehen davor, Quellen und Änderungsverlauf danach.

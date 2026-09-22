@@ -3,7 +3,7 @@
 [Deutsch (Standard)](teamprozess-mensch-ki-github.md) | English
 
 - Status: Draft
-- Maintainer: UNKNOWN: not assigned
+- Maintainer: maintainer team (reviews changes)
 - Content checked: Initial draft adopted; no practical use has been proven.
 - Next review trigger: before team adoption and when practical feedback arrives
 - Adoption: The adopting team decides; the following rules are a proposal.

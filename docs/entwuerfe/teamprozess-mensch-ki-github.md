@@ -3,7 +3,7 @@
 Deutsch (Standard) | [English](teamprozess-mensch-ki-github.en.md)
 
 - Status: Entwurf
-- Pflegeverantwortung: UNBEKANNT: noch nicht zugewiesen
+- Pflegeverantwortung: Maintainer-Team (prüft Änderungen im Review)
 - Inhaltlich geprüft: Ausgangsentwurf übernommen; keine Praxiserprobung belegt.
 - Nächster Prüfanlass: vor einer Übernahme ins Team und bei praktischen Rückmeldungen
 - Verbindlichkeit: Das übernehmende Team entscheidet; die folgenden Vorgaben sind ein Vorschlag.

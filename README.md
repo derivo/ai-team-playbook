@@ -2,40 +2,63 @@
 
 Deutsch (Standard) | [English](README.en.md)
 
-**Status: Entwurf**
+Eine öffentliche Bibliothek anpassbarer Prozesse, Standards und Vorlagen für die
+Zusammenarbeit von Menschen und KI-Agenten.
 
-Eine Bibliothek anpassbarer Standards, Prozesse und Workflows für die
-Zusammenarbeit von Menschen und KI-Agenten. Sie ergänzt `ki-agent-setup` um
-Teamabläufe. Jedes Team entscheidet selbst über Anpassung und Verbindlichkeit.
+Das Playbook macht gemeinsame Arbeitsweisen sichtbar, überprüfbar und
+wiederverwendbar. Es ist kein allgemeingültiges Firmenhandbuch: Jedes Team
+entscheidet selbst, welche Inhalte es übernimmt, anpasst und verbindlich macht.
 
-[Vision und Wiederaufnahme](vision.md) beschreiben das Zielbild, den belegten
-Arbeitsstand und die nächsten Schritte bis zu einer ersten Veröffentlichung.
+## Prozessübersicht
 
-## Erste Entwürfe
+| Prozess | Was wird geregelt? | Wann ist er hilfreich? | Dokument |
+| --- | --- | --- | --- |
+| Zusammenarbeit über Issues und Pull Requests | Aufgabenübernahme, Statuspflege, Übergaben, KI-Reviews und Nacharbeiten | Wenn mehrere Menschen und lokale KI-Agenten an gemeinsamen Änderungen arbeiten | [Teamprozess](docs/entwuerfe/teamprozess-mensch-ki-github.md) |
+| Lebenszyklus gemeinsam genutzter Apps | Idee, Einordnung, Experiment, Betriebsübernahme, regelmäßige Prüfung und Abschaltung | Wenn aus einer App-Idee ein gemeinsam genutztes und betreutes Arbeitsmittel werden kann | [App-Lifecycle](docs/entwuerfe/gedankenspiel-app-lifecycle.md) |
 
-- [Teamprozess: Issues, Pull Requests und KI-Reviews](docs/entwuerfe/teamprozess-mensch-ki-github.md)
-- [Gedankenspiel: Von der App-Idee bis zur Abschaltung](docs/entwuerfe/gedankenspiel-app-lifecycle.md)
+Beide Prozesse haben den Status Entwurf: Es sind eigenständige Vorschläge, deren
+praktische Erprobung noch nicht belegt ist.
 
-Die Dokumente sind eigenständige Vorschläge und nicht als Praxiserfahrung belegt.
+## Playbook verwenden
 
-## Inhalte bearbeiten
+1. In der Prozessübersicht einen passenden Ausgangspunkt auswählen.
+2. Problem, Rollen, Voraussetzungen und Grenzen des Prozesses lesen.
+3. Begriffe und Ablauf an den eigenen Teamkontext anpassen.
+4. Im Team entscheiden, welche Teile verbindlich gelten.
+5. Erfahrungen und Änderungsbedarf nachvollziehbar dokumentieren.
 
-[Dokumentstruktur und Pflege](docs/README.md) definieren Formate, Status und
-Prüfkriterien. [AGENTS.md](AGENTS.md) legt die Projektregeln fest.
+Die [Vision](vision.md) beschreibt Zweck, Zielbild und Grundsätze des Projekts.
+Aufbau, Statusmodell und Pflege der Inhalte stehen in der
+[Dokumentstruktur](docs/README.md).
 
-Projektlokale Skills:
+## Vorlagen und Skills
 
-- [playbook-inhalte-erstellen](.agents/skills/playbook-inhalte-erstellen/SKILL.md): neue Inhalte verfassen.
-- [playbook-inhalte-aendern](.agents/skills/playbook-inhalte-aendern/SKILL.md): Inhalte aktualisieren oder für einen Kontext anpassen.
-- [playbook-anfragen-und-prs](.agents/skills/playbook-anfragen-und-prs/SKILL.md): Änderungsanfragen und Pull Requests vorbereiten.
+| Hilfsmittel | Zweck |
+| --- | --- |
+| [Inhaltsvorlage](docs/vorlagen/inhalt.md) | Einen neuen Prozess oder Standard einheitlich strukturieren |
+| [Änderungsanfrage](docs/vorlagen/aenderungsanfrage.md) | Problem, Ziel, Umfang und Entscheidung nachvollziehbar festhalten |
+| [Pull-Request-Vorlage](docs/vorlagen/pull-request.md) | Änderung und Prüfnachweise für ein Review zusammenfassen |
+| [Projektlokale Skills](AGENTS.md#passenden-skill-wählen) | KI-Agenten beim Erstellen, Anpassen und Prüfen von Inhalten anleiten |
 
-Die Skills können in einem unterstützenden Client über ihren Namen aufgerufen
-oder als Arbeitsanleitung gelesen werden. Sie installieren keine Automationen.
+## Sprachen
 
-## Arbeitsstand
+Deutsch ist die Standardsprache und verwendet Dateinamen ohne Sprachsuffix.
+Englische Fassungen liegen jeweils daneben und tragen `.en.md`. Beide Fassungen
+werden gemeinsam gepflegt und verlinken einander.
 
-Die zweisprachige Grundlage ist vorbereitet. Git verwendet `main`; das öffentliche
-Repository ist [derivo/ai-team-playbook](https://github.com/derivo/ai-team-playbook).
-Deutsch ist die Standardsprache, englische Fassungen tragen das Suffix `.en.md`.
-Eine Lizenz ist noch nicht festgelegt. Pflegeverantwortung der Bibliothek:
-UNBEKANNT. Nächste Prüfung: vor der ersten praktischen Erprobung.
+## Beitragen
+
+Vor einem neuen Beitrag prüfen, ob bereits ein Inhalt mit demselben Zweck
+existiert. Ein Änderungsvorschlag soll das konkrete Problem, das gewünschte
+Ergebnis und einen überprüfbaren Abschluss beschreiben. Öffentliche Inhalte
+werden immer gemeinsam auf Deutsch und Englisch geändert.
+
+Die [Projektregeln](AGENTS.md) enthalten die vollständigen Pflege- und
+Prüfvorgaben.
+
+## Lizenz
+
+Dokumentation, Prozesse, Vorlagen und Skills stehen unter
+[CC BY 4.0](LICENSES/CC-BY-4.0.txt). Software und ausführbare Skripte stehen unter
+[Apache-2.0](LICENSES/Apache-2.0.txt). Die genaue Zuordnung und Hinweise zur
+Namensnennung stehen in der [Lizenzübersicht](LICENSE.md).

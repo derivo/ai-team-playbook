@@ -3,7 +3,7 @@
 Deutsch (Standard) | [English](vision.en.md)
 
 - Status: Entwurf
-- Pflegeverantwortung: UNBEKANNT: noch nicht zugewiesen
+- Pflegeverantwortung: Maintainer-Team (prüft Änderungen im Review)
 - Inhaltlich geprüft: 2026-09-22 gegen den lokalen Projektstand
 - Nächster Prüfanlass: vor der ersten Veröffentlichung oder bei einer Änderung des Projektziels
 - Erprobungsnachweis: Keiner; die Bibliothek ist noch nicht praktisch erprobt.
@@ -51,8 +51,9 @@ anpassen.
 
 ## Rollen
 
-- Die Pflegeverantwortung hält Struktur, Status und Verweise der Bibliothek
-  aktuell. Diese Rolle ist noch nicht zugewiesen.
+- Das Maintainer-Team hält Struktur, Status und Verweise der Bibliothek
+  aktuell und prüft Änderungen im Review. In einem Fork oder einer Kopie
+  benennt das übernehmende Team eigene Zuständige.
 - Inhaltsverantwortliche prüfen einzelne Prozesse und ihre Nachweise bei
   Änderungen oder praktischen Rückmeldungen.
 - Beitragende beschreiben Änderungsbedarf nachvollziehbar und liefern passende
@@ -77,7 +78,9 @@ Am 2026-09-22 wurde der folgende lokale Stand geprüft:
   [derivo/ai-team-playbook](https://github.com/derivo/ai-team-playbook) ist als
   `origin` eingerichtet. Die zweisprachige Grundlage bildet die erste
   Veröffentlichung; Pull Requests existieren noch nicht.
-- Eine Lizenz und die Pflegeverantwortung sind noch nicht festgelegt.
+- Die Lizenzierung ist festgelegt: redaktionelle Inhalte verwenden `CC-BY-4.0`,
+  Software und ausführbare Skripte `Apache-2.0`. Die Pflegeverantwortung liegt
+  beim Maintainer-Team.
 
 Dieser Abschnitt ist eine Momentaufnahme. Bei der Wiederaufnahme müssen die
 Aussagen gegen den tatsächlichen Projektstand geprüft werden.
@@ -93,10 +96,12 @@ nicht; verbleibende Streitpunkte sind ausdrücklich dokumentiert.
 
 ### 2. Pflege und Lizenz entscheiden
 
-Eine menschliche Pflegeverantwortung benennen und eine Lizenz bewusst auswählen.
-Die Entscheidung zur Lizenz darf nicht durch einen Agenten vorweggenommen werden.
-Akzeptanzkriterium: Verantwortung und Lizenzentscheidung sind dokumentiert; die
-gewählte Lizenzdatei existiert erst nach dieser Entscheidung.
+Status: am 2026-09-22 umgesetzt.
+
+Die Pflegeverantwortung liegt beim Maintainer-Team. Die Lizenzierung wurde am
+2026-09-22 mit `CC-BY-4.0` für redaktionelle Inhalte und `Apache-2.0` für Software
+festgelegt. Akzeptanzkriterium: Die Verantwortung ist dokumentiert und neue
+Dateien folgen der festgelegten Lizenzzuordnung.
 
 ### 3. Versionsverwaltung vorbereiten
 
@@ -145,9 +150,9 @@ Projekt: /Users/dennis/code/ai-team-playbook
 3. Vorhandene Änderungsanfragen und offene Entscheidungen suchen.
 4. Den ersten unerledigten Schritt unter „Ablauf bis zur ersten
    Veröffentlichung“ benennen und nur dessen Voraussetzungen bearbeiten.
-5. Keine Lizenz wählen, kein Git initialisieren, keinen Commit erstellen, kein
-   Remote anlegen und nichts veröffentlichen, solange das nicht ausdrücklich
-   beauftragt beziehungsweise freigegeben wurde.
+5. Keine andere Lizenz wählen, keinen Commit erstellen, nicht pushen und nichts
+   veröffentlichen, solange das nicht ausdrücklich beauftragt beziehungsweise
+   freigegeben wurde.
 6. Nach der Arbeit vision.md und vision.en.md nur dort aktualisieren, wo sich der
    belegte Zustand, eine Entscheidung oder der nächste Schritt tatsächlich
    geändert hat.
@@ -162,8 +167,8 @@ Projekt: /Users/dennis/code/ai-team-playbook
 ## Grenzen
 
 Die Vision ist kein verbindlicher Zeitplan und keine Veröffentlichungserlaubnis.
-Sie legt weder eine Lizenz noch eine technische Plattform jenseits der bereits
-beschriebenen GitHub-Arbeitsweise fest. Sie behauptet keine Praxiserprobung und
+Sie legt keine technische Plattform jenseits der bereits beschriebenen
+GitHub-Arbeitsweise fest; die Lizenzierung regelt die [Lizenzübersicht](LICENSE.md). Sie behauptet keine Praxiserprobung und
 ersetzt keine konkrete Änderungsanfrage.
 
 Die Bibliothek soll klein und anpassbar bleiben. Neue Inhalte entstehen aus einem
@@ -182,3 +187,6 @@ nicht vorsorglich angelegt.
 
 - 2026-09-22: Erster Entwurf mit Zielbild, geprüftem Ausgangsstand,
   Veröffentlichungspfad und Wiederaufnahmevorlage angelegt.
+- 2026-09-22: Lizenzierung (`CC-BY-4.0` für redaktionelle Inhalte, `Apache-2.0`
+  für Software) festgehalten und das Maintainer-Team als Pflegeverantwortung
+  eingetragen; Schritt 2 als umgesetzt markiert.

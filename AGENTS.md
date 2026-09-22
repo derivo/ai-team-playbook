@@ -18,6 +18,11 @@ werden in derselben Änderung aktualisiert. Unbekanntes auf Deutsch mit
 `UNBEKANNT: …`, auf Englisch mit `UNKNOWN: …` markieren. Erfahrungsbelege und
 URLs niemals erfinden. Beispiele als fiktiv kennzeichnen.
 
+Die [Lizenzübersicht](LICENSE.md) gilt für alle neuen Inhalte. Dokumentation,
+Prozesse, Vorlagen und Skills verwenden `CC-BY-4.0`; Software und ausführbare
+Skripte verwenden `Apache-2.0`. Die offiziellen Rechtstexte unter `LICENSES/`
+bleiben unverändert auf Englisch und sind von der Sprachpaar-Regel ausgenommen.
+
 ## Passenden Skill wählen
 
 - Neuer Inhalt: [playbook-inhalte-erstellen](.agents/skills/playbook-inhalte-erstellen/SKILL.md).
@@ -32,7 +37,7 @@ nur im Umfang eines konkreten Änderungsauftrags bearbeiten.
 
 Keine Commits ohne ausdrückliche Freigabe vor jedem Commit. Git-Initialisierung,
 Remote-Erstellung, Push und echte PRs brauchen einen entsprechenden Auftrag.
-Keine Lizenz, Automationen oder zusätzlichen Werkzeuge eigenmächtig hinzufügen.
+Keine andere Lizenz, Automationen oder zusätzlichen Werkzeuge eigenmächtig hinzufügen.
 Eine Anfrage oder Vorlage ist keine Ausführungserlaubnis.
 
 Vor Änderungen an AGENTS.md oder Skills einen Rückweg sichern: vorhandene

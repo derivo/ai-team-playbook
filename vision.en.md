@@ -3,7 +3,7 @@
 [Deutsch (Standard)](vision.md) | English
 
 - Status: Draft
-- Maintainer: UNKNOWN: not assigned
+- Maintainer: maintainer team (reviews changes)
 - Content checked: 2026-09-22 against the local project state
 - Next review trigger: before the first publication or when the project goal changes
 - Evidence of practical use: None; the library has not been tested in practice.
@@ -49,8 +49,9 @@ Teams adopt only the parts they deliberately select and adapt.
 
 ## Roles
 
-- The library maintainer keeps structure, status, and references current. This
-  role has not been assigned.
+- The maintainer team keeps structure, status, and references current and
+  reviews changes. In a fork or copy, the adopting team names its own
+  maintainers.
 - Content owners review individual processes and their evidence when changes or
   practical feedback occur.
 - Contributors describe change needs traceably and supply suitable evidence.
@@ -74,7 +75,8 @@ The following local state was checked on 2026-09-22:
   [derivo/ai-team-playbook](https://github.com/derivo/ai-team-playbook) is
   configured as `origin`. The bilingual foundation is the first publication;
   no pull requests exist yet.
-- No license or library maintainer has been selected.
+- Licensing is defined: editorial material uses `CC-BY-4.0`, while software and
+  executable scripts use `Apache-2.0`. The maintainer team maintains the library.
 
 This section is a snapshot. On continuation, verify every statement against the
 actual project state.
@@ -90,9 +92,12 @@ remaining disagreements are documented explicitly.
 
 ### 2. Decide maintenance and license
 
-Name a human maintainer and deliberately select a license. An agent must not make
-the license decision in advance. Acceptance criterion: ownership and the license
-decision are documented; the license file is created only after that decision.
+Status: completed on 2026-09-22.
+
+The maintainer team maintains the library. Licensing was defined on 2026-09-22
+as `CC-BY-4.0` for editorial material and `Apache-2.0` for software. Acceptance
+criterion: ownership is documented and new files follow the defined license
+allocation.
 
 ### 3. Prepare version control
 
@@ -140,8 +145,8 @@ Project: /Users/dennis/code/ai-team-playbook
 3. Find existing change requests and open decisions.
 4. Name the first unfinished step under “Process toward the first publication”
    and work only on its prerequisites.
-5. Do not select a license, initialize Git, create a commit, configure a remote,
-   or publish unless that action has been explicitly requested or approved.
+5. Do not select another license, create a commit, push, or publish unless that
+   action has been explicitly requested or approved.
 6. After the work, update vision.md and vision.en.md only where verified state,
    a decision, or the next step actually changed.
 ```
@@ -155,8 +160,8 @@ Project: /Users/dennis/code/ai-team-playbook
 ## Limits
 
 This vision is neither a binding schedule nor authorization to publish. It does
-not select a license or a technical platform beyond the documented GitHub
-workflow. It makes no claim of practical use and does not replace a specific
+not select a technical platform beyond the documented GitHub workflow; licensing
+is governed by the [license overview](LICENSE.en.md). It makes no claim of practical use and does not replace a specific
 change request.
 
 The library should remain small and adaptable. New content starts from a concrete
@@ -175,3 +180,6 @@ advance.
 
 - 2026-09-22: Initial draft created with target state, verified starting state,
   publication path, and continuation template.
+- 2026-09-22: Recorded licensing (`CC-BY-4.0` for editorial material,
+  `Apache-2.0` for software), assigned the maintainer team as maintainer, and
+  marked step 2 as completed.

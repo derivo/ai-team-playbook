@@ -2,42 +2,63 @@
 
 [Deutsch (Standard)](README.md) | English
 
-**Status: Draft**
+A public library of adaptable processes, standards, and templates for
+collaboration between people and AI agents.
 
-A library of adaptable standards, processes, and workflows for collaboration
-between people and AI agents. It complements `ki-agent-setup` with team
-workflows. Each team decides for itself how to adapt the material and whether to
-make it binding.
+The playbook makes shared ways of working visible, verifiable, and reusable. It
+is not a universal company handbook: each team decides which content to adopt,
+adapt, and make binding.
 
-[Vision and continuation guide](vision.en.md) describe the target state, the
-verified working state, and the next steps toward an initial publication.
+## Process overview
 
-## Initial drafts
+| Process | What does it govern? | When is it useful? | Document |
+| --- | --- | --- | --- |
+| Collaboration through issues and pull requests | Task ownership, status updates, handoffs, AI reviews, and follow-up work | When several people and local AI agents work on shared changes | [Team process](docs/entwuerfe/teamprozess-mensch-ki-github.en.md) |
+| Lifecycle of shared apps | Idea, classification, experiment, operational handover, regular review, and retirement | When an app idea may become a shared and maintained work tool | [App lifecycle](docs/entwuerfe/gedankenspiel-app-lifecycle.en.md) |
 
-- [Team process: Issues, pull requests, and AI reviews](docs/entwuerfe/teamprozess-mensch-ki-github.en.md)
-- [Thought experiment: From app idea to retirement](docs/entwuerfe/gedankenspiel-app-lifecycle.en.md)
+Both processes have the status Draft: they are standalone proposals whose
+practical use has not yet been proven.
 
-The documents are independent proposals and are not presented as proven practice.
+## Use the playbook
 
-## Editing content
+1. Select a suitable starting point from the process overview.
+2. Read the process problem, roles, prerequisites, and limits.
+3. Adapt terminology and workflow to the team's context.
+4. Decide within the team which parts become binding.
+5. Document experience and change needs traceably.
 
-[Documentation structure and maintenance](docs/README.en.md) define formats,
-status values, and verification criteria. [Project rules](AGENTS.en.md) explain
-the working rules; German remains their authoritative default.
+The [vision](vision.en.md) describes the project's purpose, target state, and
+principles. Content structure, status model, and maintenance are defined in the
+[documentation structure](docs/README.en.md).
 
-Project-local skills:
+## Templates and skills
 
-- [playbook-inhalte-erstellen](.agents/skills/playbook-inhalte-erstellen/SKILL.en.md): create new content.
-- [playbook-inhalte-aendern](.agents/skills/playbook-inhalte-aendern/SKILL.en.md): update content or adapt it to a specific context.
-- [playbook-anfragen-und-prs](.agents/skills/playbook-anfragen-und-prs/SKILL.en.md): prepare change requests and pull requests.
+| Resource | Purpose |
+| --- | --- |
+| [Content template](docs/vorlagen/inhalt.en.md) | Structure a new process or standard consistently |
+| [Change request](docs/vorlagen/aenderungsanfrage.en.md) | Record the problem, goal, scope, and decision traceably |
+| [Pull request template](docs/vorlagen/pull-request.en.md) | Summarize a change and its verification evidence for review |
+| [Project-local skills](AGENTS.en.md#select-the-appropriate-skill) | Guide AI agents through creating, adapting, and checking content |
 
-Supporting clients can invoke the skills by name or use them as working
-instructions. They do not install automations.
+## Languages
 
-## Working state
+German is the default language and uses file names without a language suffix.
+English versions live beside them and use `.en.md`. Both versions are maintained
+together and link to one another.
 
-The bilingual foundation has been prepared. Git uses `main`; the public
-repository is [derivo/ai-team-playbook](https://github.com/derivo/ai-team-playbook).
-German is the default language, while English files use the `.en.md` suffix. No
-license has been selected. Library maintainer: UNKNOWN. Next review: before the
-first practical trial.
+## Contributing
+
+Before contributing new material, check whether content with the same purpose
+already exists. A change proposal should describe the concrete problem, desired
+result, and verifiable completion. Public content is always changed in German and
+English together.
+
+The [project rules](AGENTS.en.md) contain the complete maintenance and
+verification requirements.
+
+## License
+
+Documentation, processes, templates, and skills are licensed under
+[CC BY 4.0](LICENSES/CC-BY-4.0.txt). Software and executable scripts are licensed
+under [Apache-2.0](LICENSES/Apache-2.0.txt). See the
+[licensing overview](LICENSE.en.md) for the exact allocation and attribution guidance.

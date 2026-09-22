@@ -11,9 +11,9 @@ limits, and document a deliberate adaptation for their context.
 ## Scope and sources
 
 The library contains documents, templates, and skills for maintaining content.
-It does not contain installed automations, a binding company handbook, or a
-selected license. Sources are the specific change request, the affected
-documents, and evidence that was actually verified. Experience is never invented.
+It does not contain installed automations or a binding company handbook. Sources
+are the specific change request, the affected documents, and evidence that was
+actually verified. Experience is never invented.
 
 ## Locations and formats
 
@@ -37,6 +37,10 @@ without a language suffix, such as `vision.md`. The English version uses
 `.en.md`, such as `vision.en.md`. Both files live in the same directory, link to
 one another near the top, and represent the same substantive state. A content
 change is complete only after both versions have been updated and checked.
+
+The official legal texts under `LICENSES/` are unchanged English originals and
+the sole exception to the language-pair rule. The allocation of `CC-BY-4.0` and
+`Apache-2.0` is defined in the [licensing overview](../LICENSE.en.md).
 
 New content follows: **Problem → Audience → Roles → Process → Templates →
 Limits**. Maintenance metadata precedes these sections; sources and change

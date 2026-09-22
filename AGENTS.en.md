@@ -20,6 +20,11 @@ Both versions link to one another and are updated in the same change. Mark unkno
 facts with `UNBEKANNT: …` in German and `UNKNOWN: …` in English. Never invent
 evidence of practical use or URLs. Mark examples as fictional.
 
+The [licensing overview](LICENSE.en.md) applies to all new material.
+Documentation, processes, templates, and skills use `CC-BY-4.0`; software and
+executable scripts use `Apache-2.0`. The official legal texts under `LICENSES/`
+remain unchanged in English and are exempt from the language-pair rule.
+
 ## Select the appropriate skill
 
 - New content: [playbook-inhalte-erstellen](.agents/skills/playbook-inhalte-erstellen/SKILL.en.md).
@@ -33,7 +38,7 @@ their content only within a specific request.
 ## Change boundaries
 
 Every commit requires explicit approval. Git initialization, remote creation,
-pushes, and real PRs require a corresponding request. Do not select a license,
+pushes, and real PRs require a corresponding request. Do not select a different license,
 add automations, or introduce tools without authorization. A request or template
 does not itself authorize execution.
 
